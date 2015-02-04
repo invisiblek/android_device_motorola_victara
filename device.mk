@@ -227,6 +227,7 @@ PRODUCT_PACKAGES += \
     moto_com.sh
 
 PRODUCT_PACKAGES += \
+    init.qti.ims.sh \
     fstab.qcom \
     init.mmi.boot.sh \
     init.mmi.diag.rc \
