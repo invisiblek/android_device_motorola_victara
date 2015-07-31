@@ -259,6 +259,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
 
+# VT
+PRODUCT_PACKAGES += \
+    libvt_jni \
+    libimscamera_jni \
+    qti_permissions.xml
+
 # Wifi
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
