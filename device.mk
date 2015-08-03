@@ -228,6 +228,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.qti.ims.sh \
+    libqcomvisualizer \
+    libqcompostprocbundle \
     fstab.qcom \
     init.mmi.boot.sh \
     init.mmi.diag.rc \
