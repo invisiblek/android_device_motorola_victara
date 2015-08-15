@@ -96,6 +96,9 @@ void vendor_load_properties()
         /* xt1096 (vzw) */
         property_set("ro.telephony.default_network", "10");
         property_set("telephony.lteOnCdmaDevice", "1");
+        property_set("ro.com.google.clientidbase.ms", "android-verizon");
+        property_set("ro.com.google.clientidbase.am", "android-verizon");
+        property_set("ro.com.google.clientidbase.yt", "android-verizon");
     } else {
         /* all others */
         property_set("ro.telephony.default_network", "9");
