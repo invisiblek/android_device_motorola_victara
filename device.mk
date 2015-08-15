@@ -212,6 +212,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+# Releasetools
+PRODUCT_COPY_FILES += \
+    device/motorola/victara/releasetools/variant_script.sh:install/bin/variant_script.sh
+
 # Support
 PRODUCT_PACKAGES += \
     libcurl \
