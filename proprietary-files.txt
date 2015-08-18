@@ -343,6 +343,14 @@ etc/firmware/sensorhubver.txt
 lib/hw/sensorhub.msm8974.so
 lib/hw/sensors.msm8974.so
 
+# Test command service
+bin/tcmd
+lib/libDxHdcp.so
+lib/libadspd.so
+lib/libpkip.so
+lib/libtpa.so
+lib/libtpa_core.so
+
 # Time
 bin/time_daemon
 
