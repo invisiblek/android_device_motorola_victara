@@ -52,6 +52,12 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01e00000
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8974
 TARGET_KERNEL_CONFIG := cyanogenmod_victara_defconfig
 
+# Art
+ifeq ($(HOST_OS),linux)
+  WITH_DEXPREOPT := true
+endif
+WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
+
 # Audio
 AUDIO_FEATURE_ENABLED_ANC_HEADSET := true
 AUDIO_FEATURE_ENABLED_EXTERNAL_SPEAKER := true
