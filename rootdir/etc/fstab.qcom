@@ -15,4 +15,7 @@
 /dev/block/platform/msm_sdcc.1/by-name/modem          /firmware    ext4    ro,nosuid,nodev,barrier=0,context=u:object_r:firmware_file:s0  wait,notrim
 /dev/block/platform/msm_sdcc.1/by-name/fsg            /fsg         ext4    ro,nosuid,nodev,barrier=0,context=u:object_r:fsg_file:s0  wait,notrim
 
-/devices/platform/xhci-hcd/usb1/1-1/1-1:1.0           auto         auto    defaults                                    voldmanaged=usbdisk:auto,noemulatedsd
+/dev/block/platform/msm_sdcc.1/by-name/modemst1       /modemst1    emmc    defaults                                    recoveryonly                              twrp=backup=1;display=EFS
+/dev/block/platform/msm_sdcc.1/by-name/modemst2       /modemst2    emmc    defaults                                    recoveryonly                              twrp=backup=1;subpartitionof=/efs1
+
+/devices/platform/xhci-hcd/usb1/1-1/1-1:1.0           auto         auto    defaults                                    voldmanaged=usbdisk:auto,noemulatedsd     twrp=removable;storage;display=USB-OTG
