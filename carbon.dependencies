@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "gh",
+    "repository": "CarbonROM/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "cr-4.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "CarbonROM/android_kernel_motorola_msm8974",
+    "target_path": "kernel/motorola/msm8974",
+    "revision": "cr-4.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "CarbonROM/android_external_connectivity",
+    "target_path": "external/connectivity",
+    "revision": "cr-4.0"
+  }
+]
