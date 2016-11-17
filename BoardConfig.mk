@@ -135,8 +135,9 @@ TARGET_RIL_VARIANT := caf
 TARGET_USE_SDCLANG := true
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += device/motorola/victara/sepolicy
+#include device/qcom/sepolicy/sepolicy.mk
+#BOARD_SEPOLICY_DIRS += device/motorola/victara/sepolicy
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
