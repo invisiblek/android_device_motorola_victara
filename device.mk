@@ -80,6 +80,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+BOOT_ANIMATION_SIZE := 1080p
 
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
@@ -264,6 +265,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # CMActions
-PRODUCT_PACKAGES += \
-    CMActions \
-    libjni_CMActions
+#PRODUCT_PACKAGES += \
+#    CMActions \
+#    libjni_CMActions
