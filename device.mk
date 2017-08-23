@@ -119,9 +119,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
-    libshim_camera \
-    camera.msm8974
+    Snap
+#    libshim_camera \
+#    camera.msm8974
 
 # CRDA
 PRODUCT_PACKAGES += \
@@ -262,6 +262,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # CMActions
-PRODUCT_PACKAGES += \
-    CMActions \
-    libjni_CMActions
+#PRODUCT_PACKAGES += \
+#    CMActions \
+#    libjni_CMActions
