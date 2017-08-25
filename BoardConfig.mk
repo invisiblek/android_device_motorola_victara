@@ -99,6 +99,7 @@ USE_DEVICE_SPECIFIC_GPS := true
 
 # Hardware
 BOARD_HARDWARE_CLASS := device/motorola/victara/cmhw
+DEVICE_MANIFEST_FILE := device/motorola/victara/configs/manifest.xml
 
 # Init
 TARGET_NR_SVC_SUPP_GIDS := 32
